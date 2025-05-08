@@ -1,6 +1,6 @@
 # Rinix - A Tiny x86 Hobby OS
 
-Rinix (a playful blend of "Rini's OS" or "Really Tiny Unix-like") is a minimal, educational, 16/32-bit x86 operating system written entirely in NASM assembly. It's designed to demonstrate the fundamental concepts of OS development, from booting to a simple interactive shell with an embedded filesystem.
+Rinix (a playful blend of "Rishi's OS" or "Really Tiny Unix-like") is a minimal, educational, 16/32-bit x86 operating system written entirely in NASM assembly. It's designed to demonstrate the fundamental concepts of OS development, from booting to a simple interactive shell with an embedded filesystem.
 
 **This project is for learning purposes ONLY. It is NOT a production-ready OS.**
 
@@ -101,7 +101,7 @@ See the detailed explanation below this README.
 
 ## License
 
-This project is released under the [MIT License](LICENSE.md) (You'd create a LICENSE.md file with MIT license text).
+This project is released under the [MIT License](LICENSE.md)
 
 ## Disclaimer
 
