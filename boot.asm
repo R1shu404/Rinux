@@ -14,7 +14,7 @@ start:
     call print_string_16
 
     ; Load kernel from disk
-    ; We'll load 8 sectors (4KB) for the kernel + embedded FS.
+    ; We'll load 8 sectors (4KB) for the kernel and embedded FS.
     ; Adjust if your kernel.bin becomes larger.
     mov ax, KERNEL_LOAD_SEGMENT ; Segment where kernel will be loaded
     mov es, ax        ; ES:BX is destination address
@@ -110,9 +110,9 @@ protected_mode_start:
     mov fs, ax
     mov gs, ax
     mov ss, ax
-    mov esp, 0x90000 ; Temporary stack
+    mov esp, 0x90000 ; Temp Stack
 
-    ; Jump to kernel code
+    ; Jump to kernel
     jmp KERNEL_LOAD_SEGMENT:KERNEL_LOAD_OFFSET ; Jumps to 0x10000 linear
 
 ; Padding and Boot Signature
