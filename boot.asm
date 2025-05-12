@@ -1,6 +1,6 @@
 ; boot.asm - Simple 16-bit bootloader
 BITS 16
-ORG 0x7C00          ; BIOS loads bootloader here
+ORG 0x7C00          ; BIOS loads bootloader
 
 start:
     mov ax, 0x07C0    ; Set up data segment
